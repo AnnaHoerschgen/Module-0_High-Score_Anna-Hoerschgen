@@ -10,8 +10,7 @@ public class Main {
         String currentPath = System.getProperty("user.dir");
         Player[] playerList = readPlayersFile(currentPath);
     }
-
-    // aefewfa
+    
     public Player[] readPlayersFile(String filepath) {
         BufferedReader br = null;
         try {
