@@ -7,10 +7,10 @@ import java.io.IOException;
 // main
 public class Main {
     public void main(String[] args) {
-        String currentPath = System.getProperty("user.dir");
-        Player[] playerList = readPlayersFile(currentPath);
+        String currentPath = System.getProperty("user.dir"); // file path
+        Player[] playerList = readPlayersFile(currentPath); // put all the players into a list
     }
-    
+
     public Player[] readPlayersFile(String filepath) {
         BufferedReader br = null;
         try {
